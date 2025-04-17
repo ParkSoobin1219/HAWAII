@@ -6,6 +6,9 @@ This is the official Pytorch Implementation of HAWAII by Soobin Park^\dagger$, S
 ![Image](https://github.com/user-attachments/assets/8509d4de-1101-4974-9731-7c250d07dfb3)
 
 <img src="https://github.com/user-attachments/assets/79873780-e207-48e2-961d-304238addf89" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/06ae5c6b-ff72-41d4-8802-fad2febd7425" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/0a51b297-4cfc-48cb-98f8-7a88d6bc74c0" width="200" height="200"/>
+<img src="https://github.com/user-attachments/assets/513259cb-5e5a-4194-a6de-3e5aea02bc58" width="200" height="200"/>
 
 
 We proposed an innovative approach to applying contrastive learning to unpaired Image-to-Image translation using the Haar wavelet trasnform, called HAWAII. 
