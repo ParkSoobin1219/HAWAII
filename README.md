@@ -22,7 +22,7 @@ Extensive experiments demonstrate that the proposed method achieves state-of-the
 
 
 ## Requirements
-Get a suitable conda environment named hawaii using:
+Get a suitable conda environment named 'hawaii' using:
 ```bash
 conda env create -f environment.yaml
 ```
