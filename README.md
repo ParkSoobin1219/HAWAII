@@ -2,7 +2,7 @@
 
 [paper](https://ieeexplore.ieee.org/document/10945777)
 
-This is the official Pytorch implementation of HAWAII by Soobin Park $^\dagger$, Seohyun Yoo $^\dagger$, Nabin Jeong and Enju Cha*, accepted to IEEE Access.
+This is the official Pytorch implementation of HAWAII by Soobin Park $^\dagger$, Seohyeon Yoo $^\dagger$, Nabin Jeong and Enju Cha*, accepted to IEEE Access.
 ($^\dagger$ These authors contributed equally, * corresponding author)
 
 ![Image](https://github.com/user-attachments/assets/8509d4de-1101-4974-9731-7c250d07dfb3)
