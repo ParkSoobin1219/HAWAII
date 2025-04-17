@@ -5,7 +5,7 @@ This is the official Pytorch Implementation of HAWAII by Soobin Park^\dagger$, S
 
 ![Image](https://github.com/user-attachments/assets/8509d4de-1101-4974-9731-7c250d07dfb3)
 
-![Image](https://github.com/user-attachments/assets/79873780-e207-48e2-961d-304238addf89){: width="200" height="200"}
+<img src="https://github.com/user-attachments/assets/79873780-e207-48e2-961d-304238addf89" width="200" height="200"/>
 
 
 We proposed an innovative approach to applying contrastive learning to unpaired Image-to-Image translation using the Haar wavelet trasnform, called HAWAII. 
@@ -33,9 +33,4 @@ bash ./datasets/download_cut_dataset.sh horse2zebra
 
 
 ### Acknowledge
-Our implementation builds on [CUT](). We are also grateful to the contributors of [PyTorch-FID, KID](), and [Dino-Struct Dist.]().
-```
-
-
-### Acknowledgments
-We thank Allan Jabri and Phillip Isola for helpful discussion and feedback. Our code is developed based on [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We also thank [pytorch-fid](https://github.com/mseitzer/pytorch-fid) for FID computation,  [drn](https://github.com/fyu/drn) for mIoU computation, and [stylegan2-pytorch](https://github.com/rosinality/stylegan2-pytorch/) for the PyTorch implementation of StyleGAN2 used in our single-image translation setting.
+Our implementation builds on [CUT](). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](), and [Dino-Struct Dist.]().
