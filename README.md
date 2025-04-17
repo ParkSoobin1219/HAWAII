@@ -34,11 +34,11 @@ bash ./datasets/download_cut_dataset.sh horse2zebra
 ```
 
 ## Usage
-
+Train the HAWAII model:
 ```bash
 sh scripts/run_train.sh
 ```
-
+Test the HAWAII model:
 ```bash
 sh scripts/run_test.sh
 ```
