@@ -1,10 +1,6 @@
-#!/bin/bash
-
-export CUDA_VISIBLE_DEVICES=3
-
 python train.py \
- --name db3 \
- --logdir ./logdir/db3 \
+ --name h2z \
+ --logdir ./logdir/h2z \
  --model hawaii \
  --netG resnet_9blocks \
  --dataroot ./datasets/horse2zebra \
