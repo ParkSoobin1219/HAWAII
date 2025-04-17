@@ -46,5 +46,5 @@ sh scripts/run_test.sh
 ## Pretrained Models
 We provide the pretrained models on Horse2Zebra [here](). 
 
-### Acknowledge
+## Acknowledge
 Our implementation builds on [CUT](). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](https://github.com/alpc91/NICE-GAN-pytorch), and [Dino-Struct Dist.](https://github.com/omerbt/Splice).
