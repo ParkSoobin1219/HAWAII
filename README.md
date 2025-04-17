@@ -25,16 +25,22 @@ Extensive experiments demonstrate that the proposed method achieves state-of-the
 ## Requirements
 
 ## Datasets
-Download the Horse$\rightarrow$Zebra dataset via below command. Please refer to [CycleGAN]() for more details.
+Download the Horse2Zebra dataset via below command. Please refer to [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) for more details.
 ```bash
 bash ./datasets/download_cut_dataset.sh horse2zebra
 ```
 
 ## Training
+```bash
+sh scripts/run_train.sh
+```
 
 ## Test
+```bash
+sh scripts/run_test.sh
+```
 
 
 
 ### Acknowledge
-Our implementation builds on [CUT](). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](), and [Dino-Struct Dist.]().
+Our implementation builds on [CUT](). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](https://github.com/alpc91/NICE-GAN-pytorch), and [Dino-Struct Dist.](https://github.com/omerbt/Splice).
