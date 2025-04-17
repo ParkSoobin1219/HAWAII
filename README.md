@@ -20,9 +20,12 @@ Extensive experiments demonstrate that the proposed method achieves state-of-the
 
 
 
-## Usage
 
 ## Requirements
+Get a suitable conda environment named hawaii using:
+```bash
+conda env create -f environment.yaml
+```
 
 ## Datasets
 Download the Horse2Zebra dataset via below command. Please refer to [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) for more details.
@@ -30,12 +33,12 @@ Download the Horse2Zebra dataset via below command. Please refer to [CycleGAN](h
 bash ./datasets/download_cut_dataset.sh horse2zebra
 ```
 
-## Training
+## Usage
+
 ```bash
 sh scripts/run_train.sh
 ```
 
-## Test
 ```bash
 sh scripts/run_test.sh
 ```
