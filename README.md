@@ -1,5 +1,6 @@
 # [HAWAII] HAar Wavelet transform-based contrastive learning framework for the Image-to-Image translation 🏖
-[paper]([http://taesung.me/ContrastiveUnpairedTranslation/](https://ieeexplore.ieee.org/document/10945777))  
+
+[paper](http://taesung.me/ContrastiveUnpairedTranslation/](https://ieeexplore.ieee.org/document/10945777)  
 
 This is the official Pytorch Implementation of HAWAII by Soobin Park^\dagger$, Seohyun Yoo^\dagger$, Nabin Jeong and Enju Cha*, accepted to IEEE Access.(^\dagger$ contributed equally, * corresponding author)
 
