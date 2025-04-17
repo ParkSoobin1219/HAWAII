@@ -13,12 +13,12 @@ This is the official Pytorch implementation of HAWAII by Soobin Park $^\dagger$,
 <img src="https://github.com/user-attachments/assets/513259cb-5e5a-4194-a6de-3e5aea02bc58" width="200" height="200"/>
 
 
-We proposed an innovative approach to applying contrastive learning to unpaired Image-to-Image translation using the Haar wavelet trasnform, called HAWAII. 
-HAWAII leverages the Haar wavelet transform to define typical and non-typical features across frequency bands, which correspond to mutual information and domain-specific features in previous contrastive learning methods.
-By using these features, the generator learns to distinguish which information should be preserved or modified during translation. 
-Moreover, contrastive learning is applied not only to the generator but also to the discriminator, enhancing its ability to distinguish between source and target domain features. This regularization strategy allows both components to more effectively identify domain-relevant information. 
+We proposed an innovative approach to apply contrastive learning to unpaired Image-to-Image translation using the Haar wavelet trasnform, called HAWAII. 
+HAWAII leverages the Haar wavelet transform to define typical and non-typical features across frequency bands, which correspond to mutual information and domain-specific features in previous contrastive learning based methods.
+By using typical features, the generator effectively learns to distinguish which information should be preserved or modified during translation. 
+The non-typical features are utilized in contrastive learning applied not to the generator but to the discriminator, enhancing its ability to distinguish between source and target domain features. 
+This regularization strategy helps both the generator and the discriminator more effectively identify which features should be preserved or translated by taking frequency components into account.
 Extensive experiments demonstrate that the proposed method achieves state-of-the-art performance across multiple benchmarks.
-
 
 
 ## Requirements
@@ -47,4 +47,4 @@ sh scripts/run_test.sh
 We provide the pretrained models on Horse2Zebra [here](). 
 
 ## Acknowledge
-Our implementation builds on [CUT](). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](https://github.com/alpc91/NICE-GAN-pytorch), and [Dino-Struct Dist.](https://github.com/omerbt/Splice).
+Our implementation builds on [CUT](https://github.com/taesungp/contrastive-unpaired-translation/tree/master). We are also grateful to the contributors of [pytorch-fid](https://github.com/mseitzer/pytorch-fid), [KID](https://github.com/alpc91/NICE-GAN-pytorch), and [Dino-Struct Dist.](https://github.com/omerbt/Splice).
